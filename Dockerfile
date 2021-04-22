@@ -1,3 +1,4 @@
+#file for deploying application in docker
 FROM centos
 MAINTAINER vijay62020@gmail.com
 RUN yum -y install httpd zip unzip
