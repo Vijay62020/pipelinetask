@@ -6,4 +6,4 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page265/sh
 WORKDIR /var/www/html/
 RUN unzip shree.zip  && cp -rvf shree/* . && rm -rf shree.zip shree
 CMD [ "/usr/sbin/httpd" , "-D" , "FOREGROUND" ]
-EXPOSE 80
+EXPOSE 80 
